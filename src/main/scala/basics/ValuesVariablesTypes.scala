@@ -33,9 +33,7 @@ object ValuesVariablesTypes extends App {
 
   var variable = 5
   println("> variable = " + variable)
-  println("> variable class = " + variable.getClass.toString)
   variable = variable * 2;
   println(">> variable = " + variable)
-  println(">> variable class = " + variable.getClass.toString)
 
 }
